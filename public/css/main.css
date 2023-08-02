@@ -1,0 +1,289 @@
+/* 
+***************
+***************
+    GENERAL
+***************
+***************
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+/* 
+**************
+**************
+    MOBILE
+**************
+**************
+*/
+
+/* 
+**************
+    HEADER
+**************
+*/
+.myNav {
+    min-height: 10vh;
+    background-color: #5858d8 !important;
+}
+
+
+
+/* 
+***************
+    SECTION
+***************
+*/
+.main__section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.section title {
+    text-align: center;
+    width: 90%;
+    margin-top: 11%;
+    margin-bottom: 7%;
+}
+
+
+.section__paragraph {
+    width: 90%;
+    text-align: justify;
+}
+
+
+/* 
+**************
+    BANNER
+**************
+*/
+
+#section banner {
+    height: 90vh;
+}
+
+
+
+#mobile__banner {
+    display: inline;
+}
+
+#desktop__banner {
+    display: none
+}
+
+.banner__titles {
+    position: relative;
+    bottom: 45vh;
+    width: 100%;
+
+}
+
+.banner__title {
+    width: 100%;
+    text-align: center;
+}
+    
+/* 
+**************
+    ACERCA DE
+**************
+*/
+
+#section--about {
+    background-color: #5858d8;
+    
+}
+
+
+/* 
+**************
+    HABILIDADES
+**************
+*/
+
+#section--Habilidades {
+    background-color: #4040d4;
+}
+
+
+/* 
+**************
+    INFORMACIÓN
+**************
+*/
+
+#section--informacion {
+    width: 100%;
+    height: 100%;
+    background-color: #4040d4;
+}
+
+
+#accordionExample {
+    width: 100%
+    
+}
+.accordion{
+    background-color: #5858d8;
+}
+
+/* 
+**************
+    PROYECTOS
+**************
+*/
+
+#section--proyects {
+    text-align: center;
+    padding-bottom: 15%;
+    padding-top: 10%;
+    background-color: #4040d4;
+}
+
+
+
+/* 
+**************
+    CONTACTO
+**************
+*/
+
+#section--formulario {
+    text-align: center;
+    padding-bottom: 15%;
+    padding-top: 10%;
+    background-color: rgb(113, 190, 165);
+}
+
+.contact__form{
+    width: 90%;
+    text-align: left;
+}
+
+/* 
+**************
+    FOOTER
+**************
+*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 8vh;
+    justify-content: center;
+    background-color: #4040d4;
+    align-items: center;
+}
+
+
+@media (min-width: 1024px) {
+    html {
+        font-size: 19px;
+    }
+    }
+
+    /* 
+    **************
+    BANNER
+    **************
+    */
+
+.banner__img {
+width: 100%;
+height: 90vh;
+}
+
+
+#mobile__banner {
+    display: none;
+}
+
+#desktop__banner {
+    display: inline
+}
+
+/* 
+***************
+    SECTION
+***************
+*/
+
+.main__section {
+padding-bottom: 4%;
+}
+
+
+.section title {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+
+/* 
+**************
+    INFORMACIÓN
+**************
+*/
+
+#section--informacion {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.accordion-button {
+    background-color: #5294ca;
+
+}
+
+/* 
+**************
+    PROYECTOS
+**************
+*/
+
+.section__title{
+    text-align: center;
+}
+
+/* 
+**************
+    CONTACTO
+**************
+*/
+
+#section--formulario {
+    padding-bottom: 4%;
+
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 19px;
+    }
+    }
+    
+
+
+/* 
+**************
+    PROYECTOS
+**************
+*/
+
+
+.card {
+    background-color: #72abda;
+}
